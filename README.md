@@ -1,5 +1,5 @@
-## Fraud Detection : Full Cycle Machine Learning Modelling and App Deployment
-# By ofolebe Cyndi
+# Fraud Detection : Full Cycle Machine Learning Modelling and App Deployment
+## By ofolebe Cyndi
 
 __________________
 
@@ -42,7 +42,8 @@ The dataset was examined to understand its structure, identify missing values, d
 
 2. Feature Preprocessing
 
-Relevant features were selected and transformed into a suitable format for machine learning. This included encoding categorical variables, scaling numerical features where necessary, and preparing the target variable.
+Relevant features were selected and transformed into a suitable format for machine learning. This included
+encoding categorical variables, scaling numerical features where necessary, and preparing the target variable.
 
 3. Train-Test Split
 
@@ -56,14 +57,9 @@ A machine learning classification algorithm was trained using the processed trai
 
 The trained model was assessed using performance metrics such as accuracy, precision, recall, F1-score, and ROC-AUC to measure its effectiveness in detecting fraud.
 
-6. Model Serialization
-
-The trained model was saved using Joblib, allowing it to be reused for predictions without retraining each time the application is launched.
-
-7. Application Deployment
+6. Application Deployment
 
 The serialized model was integrated into an interactive web application, enabling users to input transaction details and receive real-time fraud predictions through an intuitive interface.
-
 
 # Features
 Predicts fraudulent transactions in real time
@@ -85,8 +81,4 @@ The model was trained on a specific dataset and may not generalize well to all r
 Fraudulent transactions are typically much less frequent than legitimate ones, which can introduce class imbalance and affect prediction performance.
 Predictions are based solely on the features available in the dataset and do not incorporate external or real-time transaction data.
 The application is intended for educational and portfolio purposes and should not be used as a production fraud detection system without further validation and testing.
-My recommendation
 
-git clone https://github.com/yourusername/Fraud-Detection-App.git
-
-Navigate to the project folder
