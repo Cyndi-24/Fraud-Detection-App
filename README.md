@@ -62,11 +62,11 @@ The trained model was assessed using performance metrics such as accuracy, preci
 The serialized model was integrated into an interactive web application, enabling users to input transaction details and receive real-time fraud predictions through an intuitive interface.
 
 # Features
-Predicts fraudulent transactions in real time
-User-friendly interface
-Instant prediction results
-Supports decision-making for fraud screening
-Demonstrates practical application of machine learning
+* Predicts fraudulent transactions in real time
+* User-friendly interface
+* Instant prediction results
+* Supports decision-making for fraud screening
+* Demonstrates practical application of machine learning
 
 # Business Value
 Fraud detection systems help organizations:
@@ -77,8 +77,8 @@ Fraud detection systems help organizations:
 * Enhance customer trust
 
 # Limitations
-The model was trained on a specific dataset and may not generalize well to all real-world transaction patterns.
-Fraudulent transactions are typically much less frequent than legitimate ones, which can introduce class imbalance and affect prediction performance.
-Predictions are based solely on the features available in the dataset and do not incorporate external or real-time transaction data.
-The application is intended for educational and portfolio purposes and should not be used as a production fraud detection system without further validation and testing.
+* The model was trained on a specific dataset and may not generalize well to all real-world transaction patterns.
+* Fraudulent transactions are typically much less frequent than legitimate ones, which can introduce class imbalance and affect prediction performance.
+* Predictions are based solely on the features available in the dataset and do not incorporate external or real-time transaction data.
+* The application is intended for educational and portfolio purposes and should not be used as a production fraud detection system without further validation and testing.
 
