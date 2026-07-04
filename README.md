@@ -1,5 +1,5 @@
 # Fraud Detection : Full Cycle Machine Learning Modelling and App Deployment
-## By ofolebe Cyndi
+## By Ofolebe Cyndi
 
 __________________
 
