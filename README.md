@@ -35,31 +35,57 @@ The dataset includes features representing transaction behavior and a target var
 # Methodology
 
 The project followed a structured machine learning workflow:
-* Data exploration and cleaning
-  The dataset was examined to understand its structure, identify missing values, detect inconsistencies, and prepare the data for analysis through appropriate cleaning and preprocessing techniques.
-* Feature preprocessing
-* Train-test split
-Model training
-Model evaluation
-Model serialization
-Deployment as an interactive web application
 
-🚀 Features
+1. Data Exploration and Cleaning
+
+The dataset was examined to understand its structure, identify missing values, detect inconsistencies, and prepare the data for analysis through appropriate cleaning and preprocessing techniques.
+
+2. Feature Preprocessing
+
+Relevant features were selected and transformed into a suitable format for machine learning. This included encoding categorical variables, scaling numerical features where necessary, and preparing the target variable.
+
+3. Train-Test Split
+
+The dataset was divided into training and testing sets to evaluate the model's ability to generalize to unseen data and reduce the risk of overfitting.
+
+4. Model Training
+
+A machine learning classification algorithm was trained using the processed training data to learn patterns that distinguish fraudulent transactions from legitimate ones.
+
+5. Model Evaluation
+
+The trained model was assessed using performance metrics such as accuracy, precision, recall, F1-score, and ROC-AUC to measure its effectiveness in detecting fraud.
+
+6. Model Serialization
+
+The trained model was saved using Joblib, allowing it to be reused for predictions without retraining each time the application is launched.
+
+7. Application Deployment
+
+The serialized model was integrated into an interactive web application, enabling users to input transaction details and receive real-time fraud predictions through an intuitive interface.
+
+
+# Features
 Predicts fraudulent transactions in real time
 User-friendly interface
 Instant prediction results
 Supports decision-making for fraud screening
 Demonstrates practical application of machine learning
 
-📈 Business Value
-
+# Business Value
 Fraud detection systems help organizations:
+* Reduce financial losses
+* Detect suspicious transactions early
+* Improve operational efficiency
+* Support risk management
+* Enhance customer trust
 
-Reduce financial losses
-Detect suspicious transactions early
-Improve operational efficiency
-Support risk management
-Enhance customer trust
+# Limitations
+The model was trained on a specific dataset and may not generalize well to all real-world transaction patterns.
+Fraudulent transactions are typically much less frequent than legitimate ones, which can introduce class imbalance and affect prediction performance.
+Predictions are based solely on the features available in the dataset and do not incorporate external or real-time transaction data.
+The application is intended for educational and portfolio purposes and should not be used as a production fraud detection system without further validation and testing.
+My recommendation
 
 git clone https://github.com/yourusername/Fraud-Detection-App.git
 
