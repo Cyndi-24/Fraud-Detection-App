@@ -57,16 +57,17 @@ encoding categorical variables, scaling numerical features where necessary, and 
   
 * feature Scaling : This was done to bring the features into the same mathematical range so they can be compareduniformly
 
-![image alt] (https://github.com/Cyndi-24/Fraud-Detection-App/blob/main/Fraud%20detection%20images/Feature%20_Scaling.png)
+![image alt](https://github.com/Cyndi-24/Fraud-Detection-App/blob/main/Fraud%20detection%20images/Feature%20_Scaling.png)
   
 3. Train-Test Split
 
 The dataset was divided into training and testing sets to evaluate the model's ability to generalize to unseen data and reduce the risk of overfitting.
 
 4. Model Training
+   
 A machine learning classification algorithm was trained using the processed training data to learn patterns that distinguish fraudulent transactions from legitimate ones.The following models were used to train the data set;Random Forest Model,XGBoost model and Logistic Regression model
 
-5. Model Evaluation
+6. Model Evaluation
 
 The trained model was assessed using performance metrics such as accuracy, precision, recall, F1-score, and ROC-AUC to measure its effectiveness in detecting fraud.The Random forest model outperformed other models demonstrating superior predictive power.
 
