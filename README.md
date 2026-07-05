@@ -37,7 +37,7 @@ The project followed a structured machine learning workflow:
 
 The dataset was examined to understand its structure, identify missing values, check for null values detect inconsistencies, and prepare the data for analysis through appropriate cleaning and preprocessing techniques.
 
-![image alt](
+![image alt](https://github.com/Cyndi-24/Fraud-Detection-App/blob/main/Fraud%20detection%20images/feat_duplicates_missingval.png)
 
 2. Feature Preprocessing
 
