@@ -44,15 +44,21 @@ Relevant features were selected and transformed into a suitable format for machi
 encoding categorical variables, scaling numerical features where necessary, and preparing the target variable through the following steps.
 
 * Feature Engineering :This was done to allow the the model to unconver hiding transaction patterns and prevent model overfitting
+  
 ![image alt](https://github.com/Cyndi-24/Fraud-Detection-App/blob/main/Fraud%20detection%20images/Feature_Engineering.png)
 
 * Feature Encoding:Label encoding was used to convert non-numerical text columns into distinct numerical columns
-  ![image alt]()
+  
+  ![image alt](https://github.com/Cyndi-24/Fraud-Detection-App/blob/main/Fraud%20detection%20images/Feature_encoding.png)
 
-* Feature Correlation :This was done to ensure to the features strongly relate to each other and the and the target variables 
+* Feature Correlation :This was done to ensure to the features strongly relate to each other and the and the target variables
+
+  ![image alt]()
   
 * feature Scaling : This was done to bring the features into the same mathematical range so they can be compareduniformly
 
+![image alt] ()
+  
 3. Train-Test Split
 
 The dataset was divided into training and testing sets to evaluate the model's ability to generalize to unseen data and reduce the risk of overfitting.
