@@ -40,21 +40,31 @@ The dataset was examined to understand its structure, identify missing values, c
 ![image alt](https://github.com/Cyndi-24/Fraud-Detection-App/blob/main/Fraud%20detection%20images/feat_duplicates_missingval.png)
 
 2. Feature Preprocessing
+Relevant features were selected and transformed into a suitable format for machine learning. This involved 
+encoding categorical variables, scaling numerical features where necessary, and preparing the target variable through the following steps.
 
-Relevant features were selected and transformed into a suitable format for machine learning. This included
-encoding categorical variables, scaling numerical features where necessary, and preparing the target variable.
+* Feature Engineering :This was done to allow the the model to unconver hiding transaction patterns and prevent model overfitting
+![image alt]()
+
+* Feature Encoding:Label encoding was used to convert non-numerical text columns into distinct numerical columns
+  ![image alt]
+
+* Feature Correlation :This was done to ensure to the features strongly relate to each other and the and the target variables 
+  
+* feature Scaling : This was done to bring the features into the same mathematical range so they can be compareduniformly
 
 3. Train-Test Split
 
 The dataset was divided into training and testing sets to evaluate the model's ability to generalize to unseen data and reduce the risk of overfitting.
 
 4. Model Training
-
-A machine learning classification algorithm was trained using the processed training data to learn patterns that distinguish fraudulent transactions from legitimate ones.
+A machine learning classification algorithm was trained using the processed training data to learn patterns that distinguish fraudulent transactions from legitimate ones.The following models were used to train the data set;Random Forest Model,XGBoost model and Logistic Regression model
 
 5. Model Evaluation
 
-The trained model was assessed using performance metrics such as accuracy, precision, recall, F1-score, and ROC-AUC to measure its effectiveness in detecting fraud.
+The trained model was assessed using performance metrics such as accuracy, precision, recall, F1-score, and ROC-AUC to measure its effectiveness in detecting fraud.The Random forest model outperformed other models demonstrating superior predictive power.
+
+![image alt](
 
 6. Application Deployment
 
