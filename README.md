@@ -2,7 +2,7 @@
 ## By Ofolebe Cyndi
 
 __________________
-
+![image alt](https://github.com/Cyndi-24/Fraud-Detection-App/blob/main/Fraud%20detection%20images/Fraud_Detection_image.png)
 
 
 _________________
@@ -19,9 +19,7 @@ This project embodies an end to end machine learning pipeline and deployed strea
 * Showcase how predictive analytics can support fraud prevention.
 
 # Dataset
-
-The model was trained using a publicly available fraud detection dataset containing anonymized transaction records.
-The dataset includes features representing transaction behavior and a target variable indicating whether a transaction was fraudulent.
+The dataset captures financial transactions originating from Uganda utilizing Ugandan Shilings (UGX) as the baseline currency.It includes features representing transaction behavior and a target variable indicating whether a transaction was fraudulent.
 
 # Technologies Used
 * Python
@@ -31,14 +29,13 @@ The dataset includes features representing transaction behavior and a target var
 * Streamlit (or Flask, depending on your app)
 * Git & GitHub
 
-  
-# Methodology
+  # Methodology
 
 The project followed a structured machine learning workflow:
 
 1. Data Exploration and Cleaning
 
-The dataset was examined to understand its structure, identify missing values, detect inconsistencies, and prepare the data for analysis through appropriate cleaning and preprocessing techniques.
+The dataset was examined to understand its structure, identify missing values, check for null valuesdetect inconsistencies, and prepare the data for analysis through appropriate cleaning and preprocessing techniques.
 
 2. Feature Preprocessing
 
