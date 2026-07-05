@@ -35,7 +35,9 @@ The project followed a structured machine learning workflow:
 
 1. Data Exploration and Cleaning
 
-The dataset was examined to understand its structure, identify missing values, check for null valuesdetect inconsistencies, and prepare the data for analysis through appropriate cleaning and preprocessing techniques.
+The dataset was examined to understand its structure, identify missing values, check for null values detect inconsistencies, and prepare the data for analysis through appropriate cleaning and preprocessing techniques.
+
+![image alt](
 
 2. Feature Preprocessing
 
