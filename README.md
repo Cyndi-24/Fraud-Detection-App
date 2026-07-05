@@ -70,11 +70,13 @@ A machine learning classification algorithm was trained using the processed trai
 
 The trained model was assessed using performance metrics such as accuracy, precision, recall, F1-score, and ROC-AUC to measure its effectiveness in detecting fraud.The Random forest model outperformed other models demonstrating superior predictive power.
 
-![image alt](
+![image alt](https://github.com/Cyndi-24/Fraud-Detection-App/blob/main/Fraud%20detection%20images/Feature_Model_evaluation.png)
 
 6. Application Deployment
 
 The serialized model was integrated into an interactive web application, enabling users to input transaction details and receive real-time fraud predictions through an intuitive interface.
+
+![image alt](
 
 # Features
 * Predicts fraudulent transactions in real time
