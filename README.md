@@ -53,7 +53,7 @@ encoding categorical variables, scaling numerical features where necessary, and 
 
 * Feature Correlation :This was done to ensure to the features strongly relate to each other and the and the target variables
 
-  ![image alt]()
+  ![image alt](https://github.com/Cyndi-24/Fraud-Detection-App/blob/main/Fraud%20detection%20images/correlation_Heatmap.png)
   
 * feature Scaling : This was done to bring the features into the same mathematical range so they can be compareduniformly
 
