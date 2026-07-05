@@ -76,7 +76,7 @@ The trained model was assessed using performance metrics such as accuracy, preci
 
 The serialized model was integrated into an interactive web application, enabling users to input transaction details and receive real-time fraud predictions through an intuitive interface.
 
-![image alt](
+![image alt](https://github.com/Cyndi-24/Fraud-Detection-App/blob/main/Fraud%20detection%20images/fraud_app.png)
 
 # Features
 * Predicts fraudulent transactions in real time
