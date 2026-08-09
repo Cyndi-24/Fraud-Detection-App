@@ -121,7 +121,9 @@ if st.button("Predict Fraud"):
     ])
 
     prediction = model.predict(input_processed)[0]
+    fraud_probability = model.predict_proba(input_processed)[0][1]
     st.subheader("Prediction Result")
+    st.write(f"Fraud probability: {fraud_probability:.2%}")
 
     if prediction == 1:
         st.error("This transaction is predicted to be fraudulent.")
