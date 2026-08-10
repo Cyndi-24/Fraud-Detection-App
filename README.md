@@ -105,7 +105,44 @@ The three models were compared with particular attention to their ability to ide
 
 Random Forest provided the strongest overall balance between fraud precision and recall, making it the most suitable model for the final application.
 
+## Why Random Forest Was Selected
 
+The model comparison showed an important trade-off between detecting as many fraud cases as possible and limiting false fraud alerts.
+
+Logistic Regression achieved 100% fraud recall, meaning it detected every fraudulent transaction in the test set. However, its fraud precision was only 28.9%, indicating a relatively high number of legitimate transactions were also flagged as fraud.
+
+XGBoost improved fraud precision to 40.0% while maintaining 76.9% recall, but its overall balance remained weaker than Random Forest.
+
+Random Forest provided the strongest balance between the two objectives, achieving **70.7% fraud precision, 74.4% fraud recall, and a 72.5% fraud F1-score**. It also produced a ROC-AUC of **0.9996**.
+
+For this reason, Random Forest was selected as the final model for deployment. It provided a more practical balance between identifying fraudulent transactions and reducing unnecessary false alerts.
+
+## Feature Importance & Key Findings
+
+Feature importance analysis showed that **Transaction Value** was the strongest predictor in the Random Forest model, contributing roughly 49% of total feature importance.
+
+Fraudulent transactions also showed a much higher median transaction value than legitimate transactions — approximately **650,000 versus 1,000**. However, the presence of lower-value fraud cases showed that transaction value alone was not enough to classify fraud reliably.
+
+Other predictive signals came from product, provider, transaction timing, category, channel, pricing strategy, and transaction direction. This suggests that fraud detection depended on a combination of transaction characteristics rather than a single rule.
+
+The analysis therefore supports a pattern-based approach to fraud detection, where multiple features are considered together before a transaction is classified.
+
+
+## Streamlit Application & Deployment
+
+The selected Random Forest model was integrated into an interactive Streamlit application so users can enter transaction details and receive both a fraud classification and estimated fraud probability.
+
+The app was developed and tested in VS Code, connected to the saved model, encoder, scaler, and feature configuration, then deployed through Streamlit using the GitHub repository.
+
+A known fraudulent transaction was used to validate the final deployment, producing a **96% fraud probability** both locally and on the live application.
+
+### Fraudulent Transaction Example
+
+![image alt](
+
+### Legitimate Transaction Example
+
+![image alt](
 
 6. Application Deployment
 The serialized model was integrated into an interactive web application, enabling users to input transaction details and receive real-time fraud predictions through an intuitive interface.
