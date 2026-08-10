@@ -159,32 +159,6 @@ A known fraudulent transaction was used to validate the final deployment, produc
 
 ![image alt](https://github.com/Cyndi-24/Fraud-Detection-App/blob/main/Fraud%20detection%20images/legitimate.png)
 
-6. Application Deployment
-The serialized model was integrated into an interactive web application, enabling users to input transaction details and receive real-time fraud predictions through an intuitive interface.
-
-![image alt] (https://github.com/Cyndi-24/Fraud-Detection-App/blob/main/Fraud%20detection%20images/fraud_app.png)
-
-# Features
-* Predicts fraudulent transactions in real time
-* User-friendly interface
-* Instant prediction results
-* Supports decision-making for fraud screening
-* Demonstrates practical application of machine learning
-
-# Business Value
-Fraud detection systems help organizations:
-* Reduce financial losses
-* Detect suspicious transactions early
-* Improve operational efficiency
-* Support risk management
-* Enhance customer trust
-
-# Limitations
-* The model was trained on a specific dataset and may not generalize well to all real-world transaction patterns.
-* Fraudulent transactions are typically much less frequent than legitimate ones, which can introduce class imbalance and affect prediction performance.
-* Predictions are based solely on the features available in the dataset and do not incorporate external or real-time transaction data.
-* The application is intended for educational and portfolio purposes and should not be used as a production fraud detection system without further validation and testing.
-
 ## Business Recommendations
 
 - Strengthen transaction review around unusually high-value transactions, since fraudulent activity in the dataset was concentrated more heavily among larger transaction amounts.
