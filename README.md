@@ -20,6 +20,21 @@ The objective of this project was to develop and evaluate a machine learning mod
 
 The project also aimed to understand the transaction characteristics associated with fraud and translate the final predictive model into an interactive application that can evaluate new transaction inputs.
 
+🔗 **Live App:** [https://fraud-detection-app-xm6eiwhsyqcpb4nf553nur.streamlit.app/ ]( MY STREAMLIT_LINK)
+
+## Business Relevance
+
+Fraud detection is not only a technical classification problem; it is also a risk-management and operational decision problem.
+
+A model like this can support banks, fintech companies, payment platforms, e-commerce businesses, and other transaction-based services by helping teams:
+
+- Prioritise suspicious transactions for investigation
+- Reduce potential financial losses from fraudulent activity
+- Limit unnecessary reviews of legitimate transactions
+- Support faster, more consistent transaction-risk screening
+
+The trade-off between precision and recall is especially important in practice. Higher recall helps detect more fraudulent transactions, while higher precision reduces the number of legitimate transactions incorrectly flagged for review.
+
 ## Analytical Questions
 
 1. Can transaction characteristics be used to distinguish fraudulent transactions from legitimate transactions?
