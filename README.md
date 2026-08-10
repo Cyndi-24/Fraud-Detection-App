@@ -101,7 +101,7 @@ The models were compared using precision, recall, F1-score, confusion matrix, RO
 
 The three models were compared with particular attention to their ability to identify fraudulent transactions rather than overall accuracy alone.
 
-![image alt](https://github.com/Cyndi-24/Fraud-Detection-App/blob/main/Fraud%20detection%20images/evaluation.png
+![image alt](https://github.com/Cyndi-24/Fraud-Detection-App/blob/main/Fraud%20detection%20images/evaluation.png)
 
 Random Forest provided the strongest overall balance between fraud precision and recall, making it the most suitable model for the final application.
 
@@ -110,7 +110,7 @@ Random Forest provided the strongest overall balance between fraud precision and
 6. Application Deployment
 The serialized model was integrated into an interactive web application, enabling users to input transaction details and receive real-time fraud predictions through an intuitive interface.
 
-![image alt](https://github.com/Cyndi-24/Fraud-Detection-App/blob/main/Fraud%20detection%20images/fraud_app.png)
+![image alt] (https://github.com/Cyndi-24/Fraud-Detection-App/blob/main/Fraud%20detection%20images/fraud_app.png)
 
 # Features
 * Predicts fraudulent transactions in real time
