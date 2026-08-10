@@ -138,7 +138,7 @@ A known fraudulent transaction was used to validate the final deployment, produc
 
 ### Fraudulent Transaction Example
 
-![image alt](
+![image alt](https://github.com/Cyndi-24/Fraud-Detection-App/blob/main/Fraud%20detection%20images/fraudulent.png)
 
 ### Legitimate Transaction Example
 
