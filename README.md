@@ -1,4 +1,4 @@
-# Fraud Detection Application: Full Cycle Machine Learning Modelling and App Deployment
+# Fraud Detection Application: Machine Learning Modelling and App Deployment
 
 __________________
 
