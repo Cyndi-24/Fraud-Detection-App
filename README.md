@@ -185,3 +185,24 @@ Fraud detection systems help organizations:
 * Predictions are based solely on the features available in the dataset and do not incorporate external or real-time transaction data.
 * The application is intended for educational and portfolio purposes and should not be used as a production fraud detection system without further validation and testing.
 
+## Business Recommendations
+
+- Strengthen transaction review around unusually high-value transactions, since fraudulent activity in the dataset was concentrated more heavily among larger transaction amounts.
+- Combine transaction value with other patterns such as product type, provider, channel, timing, and transaction direction when deciding which transactions deserve closer attention.
+- Focus fraud-monitoring resources on transactions with stronger risk signals rather than treating every transaction with the same level of scrutiny.
+- Introduce additional verification for suspicious transactions before completion, especially where the financial exposure is high.
+- Review fraud patterns regularly so that transaction controls can be adjusted as customer behaviour, payment channels, and fraud tactics change.
+
+## Limitations & Future Improvements
+
+- This project was developed using a highly imbalanced dataset with only 193 fraudulent transactions, which means model performance is sensitive to a relatively small number of positive cases.
+
+- Transaction Value was the strongest predictor, but the dataset also contained lower-value fraud, so the model should not be interpreted as a simple high-value fraud rule. Its performance may also change when applied to transaction environments with different customer behaviour or fraud patterns.
+
+- Future improvements could include cross-validated hyperparameter tuning, decision-threshold optimisation, additional feature engineering, and validation on new or external transaction data.
+
+## Conclusion
+
+This project demonstrates an end-to-end fraud detection workflow, from data cleaning and feature preparation to model comparison, interpretation, and deployment.Random Forest was selected because it provided the strongest balance between fraud precision and recall among the models tested. The final model was integrated into a Streamlit application that can classify new transactions and return an estimated fraud probability.
+
+Beyond the technical work, the project shows how machine learning can support transaction monitoring, fraud-risk prioritisation, and more informed business decisions.
