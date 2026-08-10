@@ -142,7 +142,7 @@ A known fraudulent transaction was used to validate the final deployment, produc
 
 ### Legitimate Transaction Example
 
-![image alt](
+![image alt](https://github.com/Cyndi-24/Fraud-Detection-App/blob/main/Fraud%20detection%20images/legitimate.png)
 
 6. Application Deployment
 The serialized model was integrated into an interactive web application, enabling users to input transaction details and receive real-time fraud predictions through an intuitive interface.
